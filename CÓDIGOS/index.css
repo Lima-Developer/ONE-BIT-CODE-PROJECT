@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-/*O que é um root? --*/
+/*O que é um root, o root nada mais é do que a raiz do documento, é ótima para definir variáveis globais, que podem e/ou serão usadas em todo o documento --*/
 :root {
   --color-primary: #ed4d1b;
   --color-secundary: #ff9a3c;
