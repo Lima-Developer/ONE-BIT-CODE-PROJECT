@@ -2,7 +2,7 @@
 /*Pesquisar sobre pseudo-seletores*/
 * {
   box-sizing: border-box;
-  /*Fall back -- */
+  /*Fall back, o fall back nada mais é do que um "default", caso ele não encontre a fonte 'Roboto' ele vai utilizar a sans-serif como fonte default-- */
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@
 
 body{
   background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
-  /*o que é o padding? -- */
+  /*o que é o padding, o padding é o preenchimento interno do box model-- */
   padding: 0 1rem;
 }
 
@@ -37,9 +37,11 @@ header img{
   margin: 1rem auto;
 }
 
-/*O que é display?--
-O que é grid?-- 
-O que é display: flex?-- */
+/*O que é display, o display é uma propriedade utilizada para indicar a forma como os elementos do HTML serão dispostos na página
+
+O que é grid; o display grid é utilizado da mesma forma que o display flex, sua diferença é que o grid é bidmensional enquanto o display flex é unidimensional
+
+O que é display: flex; O display flex é utilizado para organizar os elementos de forma responsiva, ao definirmos um elemento com esse valor, ele funciona como um container para agrupar os elementos filos, que são considerados "flex-itens" e são organizados nos sentidos horizontal ou vertical-- */
 header nav{
   display: grid;
   grid-template-columns: 1fr 1fr;
